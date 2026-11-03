@@ -1,6 +1,6 @@
 # BlueJoule-GATT-Secure
 
-Experimental release candidate for a BLE secure connection benchmark. This repository starts on RC-26.11 and is not a formal release. No fresh captures or scores are claimed yet.
+Experimental release candidate for a BLE secure connection benchmark. This repository starts on RC-26.12 and is not a formal release. No fresh captures or scores are claimed yet.
 
 ## Workload
 
