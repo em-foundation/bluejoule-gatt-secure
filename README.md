@@ -1,6 +1,6 @@
 # BlueJoule-GATT-Secure
 
-Experimental release candidate for a BLE secure connection benchmark. This repository starts on RC-26.11 and is not a formal release. No fresh captures or scores are claimed yet.
+Experimental release candidate for a BLE secure connection benchmark. This repository starts on RC-26.12 and is not a formal release. No fresh captures or scores are claimed yet.
 
 ## Workload
 
@@ -35,4 +35,4 @@ EM•Script builds remain in Emporium; this repository can retain the correspond
 
 For each device and each implementation, retain the exact loaded firmware and source/tool revisions, confirm the secure transaction, and collect fresh raw data into captures/<platform>-<implementation>/3V0-J. Then run the agreed EM•Scope analysis/pack workflow and inspect generated metadata and results. Existing EMR 11–13 engineering captures remain historical evidence, not automatically scored or copied into these placeholders. PEDS activity/platform support for secure report generation must be checked before publishing results.
 
-This is initially a deliberate copy of the ordinary GATT machinery. Consolidation will follow concrete reuse requirements. Improvements and additional targets are welcome on RC-26.11; preserve workload equivalence and distinguish contributor evidence from independently recaptured results.
+This is initially a deliberate copy of the ordinary GATT machinery. Consolidation will follow concrete reuse requirements. Improvements and additional targets are welcome on RC-26.12; preserve workload equivalence and distinguish contributor evidence from independently recaptured results.
