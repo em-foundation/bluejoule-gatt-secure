@@ -3,7 +3,7 @@
     "schema_version": "1",
     "generator": {
         "name": "EM•Scope",
-        "version": "26.2.3"
+        "version": "26.2.4"
     },
     "units": {
         "time": "s",
@@ -76,7 +76,7 @@
         "subtitle": "Bench supply · 3V0",
         "device": "JS220",
         "created": "2026-11-03T17:55:10.542Z",
-        "generated": "2026-11-03T18:51:45.957Z",
+        "generated": "2026-11-03T23:15:02.378Z",
         "duration": 20,
         "sampling_rate": 1000000,
         "sample_count": 20000000,
