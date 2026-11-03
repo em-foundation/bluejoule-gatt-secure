@@ -1,0 +1,148 @@
+{
+    "id": "bluejoule-gatt-secure:ti-cc2340r5-emscript:3V0-J",
+    "schema_version": "1",
+    "generator": {
+        "name": "EM•Scope",
+        "version": "26.2.3"
+    },
+    "units": {
+        "time": "s",
+        "current": "A",
+        "voltage": "V",
+        "power": "W",
+        "energy": "J"
+    },
+    "activity": {
+        "moniker": "bluejoule-gatt-secure",
+        "url": "file:///C:/Users/bob/work/PEDS/activities/bluejoule-gatt-secure.md",
+        "title": "BlueJoule-GATT-Secure",
+        "factoids": [],
+        "references": []
+    },
+    "platform": {
+        "moniker": "ti-cc2340r5-emscript",
+        "url": "file:///C:/Users/bob/work/PEDS/platforms/ti-cc2340r5-emscript.md",
+        "title": "Texas Instruments CC2340R5 LaunchPad · EM•Script",
+        "factoids": [
+            "Board: Texas Instruments CC2340R5 LaunchPad",
+            "MCU: Texas Instruments CC2340R5",
+            "CPU: 48 MHz Arm Cortex-M0+",
+            "Flash: 512 KB",
+            "SRAM: 64 KB",
+            "Software environment: EM•Script",
+            "EM•Script SDK: 26.2.0"
+        ],
+        "references": [
+            {
+                "title": "LP-EM-CC2340R5 Development Kit",
+                "url": "https://www.ti.com/tool/LP-EM-CC2340R5"
+            },
+            {
+                "title": "CC2340R5 SoC",
+                "url": "https://www.ti.com/product/CC2340R5"
+            },
+            {
+                "title": "EM•Script project",
+                "url": "https://github.com/em-foundation/emporium"
+            }
+        ]
+    },
+    "power": {
+        "moniker": "bench",
+        "url": "file:///C:/Users/bob/work/PEDS/power/bench.md",
+        "title": "Bench Supply",
+        "factoids": [
+            "Power source: regulated bench supply",
+            "State of charge: not applicable",
+            "Battery model: none"
+        ],
+        "references": []
+    },
+    "capture": {
+        "name": "3V0-J",
+        "subtitle": "Bench supply · 3V0",
+        "device": "JS220",
+        "created": "2026-11-03T14:26:49.699Z",
+        "generated": "2026-11-03T18:51:45.426Z",
+        "duration": 12,
+        "sampling_rate": 1000000,
+        "sample_count": 12000000,
+        "voltage": {
+            "source": "measured",
+            "avg": 2.997239687649349,
+            "min": 2.9806482791900635,
+            "max": 3.003828525543213,
+            "std": 0.0012684741314518187,
+            "droop": 0.016591408459285528
+        },
+        "images": []
+    },
+    "events": {
+        "count": 10,
+        "duration_avg": 0.5,
+        "duration_std": 0,
+        "energy_avg": 0.0020414400010396695,
+        "energy_std": 0.000019226027517550452
+    },
+    "sleep": {
+        "current_avg": 6.791764743036548e-7,
+        "current_std": 0.00009382153549617194,
+        "power_avg": 0.0000020356546837006727
+    },
+    "boundary": {
+        "event_window": {
+            "count": 10,
+            "sample_width": 500000,
+            "duration": 0.5,
+            "first_sample_offset": 1289000,
+            "last_sample_end": 10761750,
+            "duration_total": 5,
+            "duration_avg": 0.5,
+            "duration_std": 0
+        },
+        "sleep_window": {
+            "sample_offset": 1989000,
+            "sample_width": 100000,
+            "start": 1.989,
+            "end": 2.089,
+            "duration": 0.1
+        },
+        "accounting_scope": {
+            "sample_offset": 789000,
+            "sample_width": 10000000,
+            "start": 0.789,
+            "end": 10.789,
+            "duration": 9.8085,
+            "measured_current_avg": 0.0006947375747664205,
+            "measured_power_avg": 0.0020822950315911725
+        },
+        "partition": {
+            "event_count": 10,
+            "event_duration_total": 5,
+            "sleep_duration": 4.8085,
+            "sleep_current_avg": 6.791764743036548e-7,
+            "sleep_current_std": 0.00009382153549617194,
+            "event_energy_total": 0.020414400010396697,
+            "modeled_energy": 0.020424188455943272,
+            "modeled_power_avg": 0.002082294790838892
+        },
+        "closure_residual": 1.156187172672994e-7,
+        "floor_residual": -5.69007052376493e-7
+    },
+    "measured": {
+        "adv-1s": {
+            "event_energy": 0.0020414400010396695,
+            "energy_per_period": 0.0020424578283815198,
+            "energy_per_day": 176.4683563721633,
+            "emeralds": 0.45333906681424424
+        }
+    },
+    "projections": {
+        "adv-10s": {
+            "event_energy": 0.0020414400010396695,
+            "energy_per_period": 0.002060778720534826,
+            "energy_per_day": 17.805128145420895,
+            "emeralds": 4.493087572670704
+        }
+    }
+}

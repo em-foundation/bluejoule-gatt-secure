@@ -1,0 +1,148 @@
+{
+    "id": "bluejoule-gatt-secure:nrf-54l15-emscript:3V0-J",
+    "schema_version": "1",
+    "generator": {
+        "name": "EM•Scope",
+        "version": "26.2.3"
+    },
+    "units": {
+        "time": "s",
+        "current": "A",
+        "voltage": "V",
+        "power": "W",
+        "energy": "J"
+    },
+    "activity": {
+        "moniker": "bluejoule-gatt-secure",
+        "url": "file:///C:/Users/bob/work/PEDS/activities/bluejoule-gatt-secure.md",
+        "title": "BlueJoule-GATT-Secure",
+        "factoids": [],
+        "references": []
+    },
+    "platform": {
+        "moniker": "nrf-54l15-emscript",
+        "url": "file:///C:/Users/bob/work/PEDS/platforms/nrf-54l15-emscript.md",
+        "title": "Nordic nRF54L15 DK · EM•Script",
+        "factoids": [
+            "MCU: Nordic nRF54L15",
+            "CPU: Arm Cortex-M33, 128 MHz",
+            "Flash: 1.5 MB",
+            "SRAM: 256 KB",
+            "Board: Nordic nRF54L15 DK",
+            "Software environment: EM•Script",
+            "EM•Script SDK: 26.2.0"
+        ],
+        "references": [
+            {
+                "title": "nRF54L15 product page",
+                "url": "https://www.nordicsemi.com/Products/nRF54L15"
+            },
+            {
+                "title": "nRF54L15 DK",
+                "url": "https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-DK"
+            },
+            {
+                "title": "EM•Script project",
+                "url": "https://github.com/em-foundation/emporium"
+            }
+        ]
+    },
+    "power": {
+        "moniker": "bench",
+        "url": "file:///C:/Users/bob/work/PEDS/power/bench.md",
+        "title": "Bench Supply",
+        "factoids": [
+            "Power source: regulated bench supply",
+            "State of charge: not applicable",
+            "Battery model: none"
+        ],
+        "references": []
+    },
+    "capture": {
+        "name": "3V0-J",
+        "subtitle": "Bench supply · 3V0",
+        "device": "JS220",
+        "created": "2026-11-03T15:01:34.556Z",
+        "generated": "2026-11-03T18:51:44.218Z",
+        "duration": 12,
+        "sampling_rate": 1000000,
+        "sample_count": 12000000,
+        "voltage": {
+            "source": "measured",
+            "avg": 2.996983553468699,
+            "min": 2.946920156478882,
+            "max": 3.0244698524475098,
+            "std": 0.0012652717153505925,
+            "droop": 0.05006339698981721
+        },
+        "images": []
+    },
+    "events": {
+        "count": 10,
+        "duration_avg": 0.5,
+        "duration_std": 0,
+        "energy_avg": 0.0003503860394865539,
+        "energy_std": 0.0000034425813008847155
+    },
+    "sleep": {
+        "current_avg": 0.000002158218899008654,
+        "current_std": 0.000005190335205660213,
+        "power_avg": 0.000006468146545114259
+    },
+    "boundary": {
+        "event_window": {
+            "count": 10,
+            "sample_width": 500000,
+            "duration": 0.5,
+            "first_sample_offset": 809250,
+            "last_sample_end": 10281000,
+            "duration_total": 5,
+            "duration_avg": 0.5,
+            "duration_std": 0
+        },
+        "sleep_window": {
+            "sample_offset": 8059250,
+            "sample_width": 100000,
+            "start": 8.05925,
+            "end": 8.15925,
+            "duration": 0.1
+        },
+        "accounting_scope": {
+            "sample_offset": 309250,
+            "sample_width": 10000000,
+            "start": 0.30925,
+            "end": 10.30925,
+            "duration": 9.65525,
+            "measured_current_avg": 0.00012212804169882,
+            "measured_power_avg": 0.000366015732388703
+        },
+        "partition": {
+            "event_count": 10,
+            "event_duration_total": 5,
+            "sleep_duration": 4.6552500000000006,
+            "sleep_current_avg": 0.000002158218899008654,
+            "sleep_current_std": 0.000005190335205660213,
+            "event_energy_total": 0.003503860394865539,
+            "modeled_energy": 0.003533971234069682,
+            "modeled_power_avg": 0.00036601550804688454
+        },
+        "closure_residual": 6.129294415491354e-7,
+        "floor_residual": -5.240566094840406e-8
+    },
+    "measured": {
+        "adv-1s": {
+            "event_energy": 0.0003503860394865539,
+            "energy_per_period": 0.00035362011275911104,
+            "energy_per_day": 30.552777742387192,
+            "emeralds": 2.6184198593836046
+        }
+    },
+    "projections": {
+        "adv-10s": {
+            "event_energy": 0.0003503860394865539,
+            "energy_per_period": 0.00041183343166513936,
+            "energy_per_day": 3.5582408495868036,
+            "emeralds": 22.483019947705312
+        }
+    }
+}

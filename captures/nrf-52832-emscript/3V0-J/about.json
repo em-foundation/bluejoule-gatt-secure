@@ -1,0 +1,152 @@
+{
+    "id": "bluejoule-gatt-secure:nrf-52832-emscript:3V0-J",
+    "schema_version": "1",
+    "generator": {
+        "name": "EM•Scope",
+        "version": "26.2.3"
+    },
+    "units": {
+        "time": "s",
+        "current": "A",
+        "voltage": "V",
+        "power": "W",
+        "energy": "J"
+    },
+    "activity": {
+        "moniker": "bluejoule-gatt-secure",
+        "url": "file:///C:/Users/bob/work/PEDS/activities/bluejoule-gatt-secure.md",
+        "title": "BlueJoule-GATT-Secure",
+        "factoids": [],
+        "references": []
+    },
+    "platform": {
+        "moniker": "nrf-52832-emscript",
+        "url": "file:///C:/Users/bob/work/PEDS/platforms/nrf-52832-emscript.md",
+        "title": "Nordic nRF52 DK · EM•Script",
+        "factoids": [
+            "MCU: Nordic nRF52832",
+            "CPU: 64 MHz Arm Cortex-M4",
+            "Flash: 512 KB",
+            "SRAM: 64 KB",
+            "Board: Nordic nRF52 Development Kit",
+            "Software environment: EM•Script",
+            "EM•Script SDK: 26.2.0"
+        ],
+        "references": [
+            {
+                "title": "Nordic nRF52832",
+                "url": "https://www.nordicsemi.com/Products/nRF52832"
+            },
+            {
+                "title": "Nordic nRF52 DK",
+                "url": "https://www.nordicsemi.com/Products/Development-hardware/nRF52-DK"
+            },
+            {
+                "title": "Board pinout",
+                "url": "https://github.com/em-foundation/emscope/blob/docs-stable/docs/boards/nrf-52-dk.png"
+            },
+            {
+                "title": "EM•Script project",
+                "url": "https://github.com/em-foundation/emporium"
+            }
+        ]
+    },
+    "power": {
+        "moniker": "bench",
+        "url": "file:///C:/Users/bob/work/PEDS/power/bench.md",
+        "title": "Bench Supply",
+        "factoids": [
+            "Power source: regulated bench supply",
+            "State of charge: not applicable",
+            "Battery model: none"
+        ],
+        "references": []
+    },
+    "capture": {
+        "name": "3V0-J",
+        "subtitle": "Bench supply · 3V0",
+        "device": "JS220",
+        "created": "2026-11-03T17:18:16.049Z",
+        "generated": "2026-11-03T18:51:41.926Z",
+        "duration": 12,
+        "sampling_rate": 1000000,
+        "sample_count": 12000000,
+        "voltage": {
+            "source": "measured",
+            "avg": 2.997337759474609,
+            "min": 2.9918341636657715,
+            "max": 3.002481460571289,
+            "std": 0.0009071719023135396,
+            "droop": 0.005503595808837414
+        },
+        "images": []
+    },
+    "events": {
+        "count": 10,
+        "duration_avg": 0.5,
+        "duration_std": 0,
+        "energy_avg": 0.0006993788201621741,
+        "energy_std": 0.000035020480365504
+    },
+    "sleep": {
+        "current_avg": 0.0000014901639765473958,
+        "current_std": 0.0001009122427699338,
+        "power_avg": 0.000004466524754714345
+    },
+    "boundary": {
+        "event_window": {
+            "count": 10,
+            "sample_width": 500000,
+            "duration": 0.5,
+            "first_sample_offset": 895000,
+            "last_sample_end": 10367500,
+            "duration_total": 5,
+            "duration_avg": 0.5,
+            "duration_std": 0
+        },
+        "sleep_window": {
+            "sample_offset": 9295000,
+            "sample_width": 100000,
+            "start": 9.295,
+            "end": 9.395,
+            "duration": 0.1
+        },
+        "accounting_scope": {
+            "sample_offset": 395000,
+            "sample_width": 10000000,
+            "start": 0.395,
+            "end": 10.395,
+            "duration": 9.62475,
+            "measured_current_avg": 0.0002431466401478008,
+            "measured_power_avg": 0.0007287926056043883
+        },
+        "partition": {
+            "event_count": 10,
+            "event_duration_total": 5,
+            "sleep_duration": 4.624750000000001,
+            "sleep_current_avg": 0.0000014901639765473958,
+            "sleep_current_std": 0.0001009122427699338,
+            "event_energy_total": 0.006993788201621741,
+            "modeled_energy": 0.007014444761981106,
+            "modeled_power_avg": 0.0007287924114372951
+        },
+        "closure_residual": 2.6642297372104687e-7,
+        "floor_residual": -3.01231350772155e-7
+    },
+    "measured": {
+        "adv-1s": {
+            "event_energy": 0.0006993788201621741,
+            "energy_per_period": 0.0007016120825395313,
+            "energy_per_day": 60.6192839314155,
+            "emeralds": 1.3197120587981837
+        }
+    },
+    "projections": {
+        "adv-10s": {
+            "event_energy": 0.0006993788201621741,
+            "energy_per_period": 0.0007418108053319604,
+            "energy_per_day": 6.409245358068138,
+            "emeralds": 12.48196870779705
+        }
+    }
+}
