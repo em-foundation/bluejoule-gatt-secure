@@ -1,0 +1,142 @@
+{
+    "id": "bluejoule-gatt-secure:ti-cc2755p10-zephyr:3V0-J",
+    "schema_version": "1",
+    "generator": {
+        "name": "EM•Scope",
+        "version": "26.2.4"
+    },
+    "units": {
+        "time": "s",
+        "current": "A",
+        "voltage": "V",
+        "power": "W",
+        "energy": "J"
+    },
+    "activity": {
+        "moniker": "bluejoule-gatt-secure",
+        "url": "file:///C:/Users/bob/work/PEDS/activities/bluejoule-gatt-secure.md",
+        "title": "BlueJoule-GATT-Secure",
+        "factoids": [],
+        "references": []
+    },
+    "platform": {
+        "moniker": "ti-cc2755p10-zephyr",
+        "url": "file:///C:/Users/bob/work/PEDS/platforms/ti-cc2755p10-zephyr.md",
+        "title": "Texas Instruments CC2755P10 LaunchPad · Zephyr",
+        "factoids": [
+            "Board: LP-EM-CC2755P10",
+            "MCU: Texas Instruments CC2755P10",
+            "Zephyr board target: `lp_em_cc2755p10`",
+            "Software stack: TI SimpleLink Zephyr `v3.7.0-ti-9.14.02_ea`",
+            "Toolchain: Zephyr SDK 0.16.8"
+        ],
+        "references": [
+            {
+                "title": "TI board documentation",
+                "url": "https://www.ti.com/tool/LP-EM-CC2755P10"
+            },
+            {
+                "title": "BlueJoule-GATT platform configuration",
+                "url": "https://github.com/em-foundation/bluejoule-gatt/tree/RC-26.11/peripheral/platforms/ti-cc2755p10"
+            }
+        ]
+    },
+    "power": {
+        "moniker": "bench",
+        "url": "file:///C:/Users/bob/work/PEDS/power/bench.md",
+        "title": "Bench Supply",
+        "factoids": [
+            "Power source: regulated bench supply",
+            "State of charge: not applicable",
+            "Battery model: none"
+        ],
+        "references": []
+    },
+    "capture": {
+        "name": "3V0-J",
+        "subtitle": "Bench supply · 3V0",
+        "device": "JS220",
+        "created": "2026-11-04T00:46:02.967Z",
+        "generated": "2026-11-04T01:07:10.925Z",
+        "duration": 25,
+        "sampling_rate": 1000000,
+        "sample_count": 25000000,
+        "voltage": {
+            "source": "measured",
+            "avg": 2.996447054161857,
+            "min": 2.9845173358917236,
+            "max": 3.004364013671875,
+            "std": 0.001301838954260948,
+            "droop": 0.01192971827013345
+        },
+        "images": []
+    },
+    "events": {
+        "count": 23,
+        "duration_avg": 0.6500000000000002,
+        "duration_std": 2.220446049250313e-16,
+        "energy_avg": 0.006551614737523514,
+        "energy_std": 0.000040422334339132945
+    },
+    "sleep": {
+        "current_avg": 0.000007070932377932122,
+        "current_std": 0.00006975301995204659,
+        "power_avg": 0.000021187674494032403
+    },
+    "boundary": {
+        "event_window": {
+            "count": 23,
+            "sample_width": 650000,
+            "duration": 0.65,
+            "first_sample_offset": 616750,
+            "last_sample_end": 24382500,
+            "duration_total": 14.95,
+            "duration_avg": 0.6500000000000002,
+            "duration_std": 2.220446049250313e-16
+        },
+        "sleep_window": {
+            "sample_offset": 20350000,
+            "sample_width": 100000,
+            "start": 20.35,
+            "end": 20.45,
+            "duration": 0.1
+        },
+        "accounting_scope": {
+            "sample_offset": 0,
+            "sample_width": 24703500,
+            "start": 0,
+            "end": 24.7035,
+            "duration": 24.258249999999997,
+            "measured_current_avg": 0.0020757652116567796,
+            "measured_power_avg": 0.0062199205536006205
+        },
+        "partition": {
+            "event_count": 23,
+            "event_duration_total": 14.95,
+            "sleep_duration": 9.308249999999997,
+            "sleep_current_avg": 0.000007070932377932122,
+            "sleep_current_std": 0.00006975301995204659,
+            "event_energy_total": 0.15068713896304084,
+            "modeled_energy": 0.1508843591341499,
+            "modeled_power_avg": 0.006219919373167888
+        },
+        "closure_residual": 1.897826061107872e-7,
+        "floor_residual": 2.5603685642370667e-7
+    },
+    "measured": {
+        "adv-1s": {
+            "event_energy": 0.006551614737523514,
+            "energy_per_period": 0.006559030423596426,
+            "energy_per_day": 566.7002285987312,
+            "emeralds": 0.14116810963322612
+        }
+    },
+    "projections": {
+        "adv-10s": {
+            "event_energy": 0.006551614737523514,
+            "energy_per_period": 0.006749719494042718,
+            "energy_per_day": 58.31757642852908,
+            "emeralds": 1.371799119568073
+        }
+    }
+}
