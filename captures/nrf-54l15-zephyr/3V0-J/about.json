@@ -1,0 +1,162 @@
+{
+    "id": "bluejoule-gatt-secure:nrf-54l15-zephyr:3V0-J",
+    "schema_version": "1",
+    "generator": {
+        "name": "EM•Scope",
+        "version": "26.2.4"
+    },
+    "units": {
+        "time": "s",
+        "current": "A",
+        "voltage": "V",
+        "power": "W",
+        "energy": "J"
+    },
+    "activity": {
+        "moniker": "bluejoule-gatt-secure",
+        "url": "file:///C:/Users/bob/work/PEDS/activities/bluejoule-gatt-secure.md",
+        "title": "BlueJoule-GATT-Secure",
+        "factoids": [],
+        "references": []
+    },
+    "platform": {
+        "moniker": "nrf-54l15-zephyr",
+        "url": "file:///C:/Users/bob/work/PEDS/platforms/nrf-54l15-zephyr.md",
+        "title": "Nordic nRF54L15 DK · Zephyr · NCS 3.0.2",
+        "factoids": [
+            "MCU: Nordic nRF54L15",
+            "CPU: Arm Cortex-M33, 128 MHz",
+            "Flash: 1.5 MB",
+            "SRAM: 256 KB",
+            "Board: Nordic nRF54L15 DK",
+            "Software stack: Zephyr",
+            "nRF Connect SDK: 3.0.2",
+            "Toolchain: nRF Connect SDK Toolchain 3.0.2",
+            "Retained SRAM: default configuration",
+            "LF clock source: LFXO (50 ppm configuration)",
+            "DC-DC converter: enabled",
+            "Compiler optimization: size (`CONFIG_SIZE_OPTIMIZATIONS=y`)",
+            "Nordic toolchain bundle `66cdf9b75e`; sysbuild; external LF crystal configured at 50 ppm; size optimization."
+        ],
+        "references": [
+            {
+                "title": "nRF54L15 product page",
+                "url": "https://www.nordicsemi.com/Products/nRF54L15"
+            },
+            {
+                "title": "nRF54L15 DK",
+                "url": "https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-DK"
+            },
+            {
+                "title": "nRF Connect SDK",
+                "url": "https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK"
+            },
+            {
+                "title": "Platform configuration and environment inventory",
+                "url": "https://github.com/em-foundation/bluejoule-gatt/tree/RC-26.11/peripheral/platforms/nrf-54l15"
+            },
+            {
+                "title": "Common application and build/load instructions",
+                "url": "https://github.com/em-foundation/bluejoule-gatt/tree/RC-26.11/peripheral"
+            }
+        ]
+    },
+    "power": {
+        "moniker": "bench",
+        "url": "file:///C:/Users/bob/work/PEDS/power/bench.md",
+        "title": "Bench Supply",
+        "factoids": [
+            "Power source: regulated bench supply",
+            "State of charge: not applicable",
+            "Battery model: none"
+        ],
+        "references": []
+    },
+    "capture": {
+        "name": "3V0-J",
+        "subtitle": "Bench supply · 3V0",
+        "device": "JS220",
+        "created": "2026-11-03T14:58:24.970Z",
+        "generated": "2026-11-03T23:15:01.325Z",
+        "duration": 12,
+        "sampling_rate": 1000000,
+        "sample_count": 12000000,
+        "voltage": {
+            "source": "measured",
+            "avg": 2.9971088356069315,
+            "min": 2.9473700523376465,
+            "max": 3.025428295135498,
+            "std": 0.0013669287908549463,
+            "droop": 0.04973878326928505
+        },
+        "images": []
+    },
+    "events": {
+        "count": 10,
+        "duration_avg": 0.5,
+        "duration_std": 0,
+        "energy_avg": 0.00039667887377182646,
+        "energy_std": 0.000001973421464094864
+    },
+    "sleep": {
+        "current_avg": 0.000001987600017856941,
+        "current_std": 0.000004511554987557916,
+        "power_avg": 0.000005957053575171533
+    },
+    "boundary": {
+        "event_window": {
+            "count": 10,
+            "sample_width": 500000,
+            "duration": 0.5,
+            "first_sample_offset": 670500,
+            "last_sample_end": 10173250,
+            "duration_total": 5,
+            "duration_avg": 0.5,
+            "duration_std": 0
+        },
+        "sleep_window": {
+            "sample_offset": 8970500,
+            "sample_width": 100000,
+            "start": 8.9705,
+            "end": 9.0705,
+            "duration": 0.1
+        },
+        "accounting_scope": {
+            "sample_offset": 170500,
+            "sample_width": 10000000,
+            "start": 0.1705,
+            "end": 10.1705,
+            "duration": 9.8575,
+            "measured_current_avg": 0.00013524606718882847,
+            "measured_power_avg": 0.00040534718295272656
+        },
+        "partition": {
+            "event_count": 10,
+            "event_duration_total": 5,
+            "sleep_duration": 4.8575,
+            "sleep_current_avg": 0.000001987600017856941,
+            "sleep_current_std": 0.000004511554987557916,
+            "event_energy_total": 0.003966788737718265,
+            "modeled_energy": 0.00399572512545966,
+            "modeled_power_avg": 0.00040534873197663304
+        },
+        "closure_residual": 0.000003821474458517159,
+        "floor_residual": -8.722583235525573e-7
+    },
+    "measured": {
+        "adv-1s": {
+            "event_energy": 0.00039667887377182646,
+            "energy_per_period": 0.00039965740055941223,
+            "energy_per_day": 34.53039940833322,
+            "emeralds": 2.3167991500467155
+        }
+    },
+    "projections": {
+        "adv-10s": {
+            "event_energy": 0.00039667887377182646,
+            "energy_per_period": 0.00045327088273595603,
+            "energy_per_day": 3.9162604268386603,
+            "emeralds": 20.427650687311093
+        }
+    }
+}

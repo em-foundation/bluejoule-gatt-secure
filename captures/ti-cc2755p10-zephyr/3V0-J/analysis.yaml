@@ -1,0 +1,431 @@
+span:
+    offset: 0
+    width: 24703500
+events:
+    - offset: 616750
+      width: 650000
+    - offset: 1561750
+      width: 650000
+    - offset: 2495750
+      width: 650000
+    - offset: 4160750
+      width: 650000
+    - offset: 5636000
+      width: 650000
+    - offset: 6746000
+      width: 650000
+    - offset: 7674500
+      width: 650000
+    - offset: 8788250
+      width: 650000
+    - offset: 9716250
+      width: 650000
+    - offset: 10656250
+      width: 650000
+    - offset: 11935250
+      width: 650000
+    - offset: 12873250
+      width: 650000
+    - offset: 13803250
+      width: 650000
+    - offset: 14744250
+      width: 650000
+    - offset: 15680500
+      width: 650000
+    - offset: 16802500
+      width: 650000
+    - offset: 17931500
+      width: 650000
+    - offset: 18858500
+      width: 650000
+    - offset: 19790500
+      width: 650000
+    - offset: 20721500
+      width: 650000
+    - offset: 21659500
+      width: 650000
+    - offset: 22780500
+      width: 650000
+    - offset: 23732500
+      width: 650000
+excluded:
+    - offset: 2000
+      width: 54250
+    - offset: 318500
+      width: 3750
+    - offset: 357500
+      width: 1750
+    - offset: 391500
+      width: 1750
+    - offset: 421750
+      width: 1500
+    - offset: 452750
+      width: 1500
+    - offset: 482750
+      width: 1500
+    - offset: 519750
+      width: 1500
+    - offset: 549750
+      width: 1500
+    - offset: 579750
+      width: 1500
+    - offset: 1320000
+      width: 3250
+    - offset: 1352750
+      width: 1500
+    - offset: 1382750
+      width: 1500
+    - offset: 1421750
+      width: 1500
+    - offset: 1453750
+      width: 1500
+    - offset: 1489750
+      width: 1500
+    - offset: 1523500
+      width: 1750
+    - offset: 2321000
+      width: 3250
+    - offset: 2353750
+      width: 1500
+    - offset: 2388750
+      width: 1500
+    - offset: 2423750
+      width: 2000
+    - offset: 2455750
+      width: 1500
+    - offset: 3322000
+      width: 3250
+    - offset: 3362750
+      width: 1500
+    - offset: 3394750
+      width: 1500
+    - offset: 3428750
+      width: 1500
+    - offset: 3460750
+      width: 1500
+    - offset: 3491750
+      width: 1500
+    - offset: 3530750
+      width: 1500
+    - offset: 3569750
+      width: 1500
+    - offset: 3599750
+      width: 1500
+    - offset: 3634750
+      width: 1500
+    - offset: 3673750
+      width: 1500
+    - offset: 3705750
+      width: 1750
+    - offset: 3740750
+      width: 1500
+    - offset: 3775750
+      width: 1500
+    - offset: 3808750
+      width: 1500
+    - offset: 3846750
+      width: 2250
+    - offset: 3880750
+      width: 2500
+    - offset: 3920750
+      width: 2250
+    - offset: 3956750
+      width: 2750
+    - offset: 3990750
+      width: 2500
+    - offset: 4022750
+      width: 2500
+    - offset: 4062750
+      width: 1500
+    - offset: 4096750
+      width: 1500
+    - offset: 4128750
+      width: 1500
+    - offset: 5320750
+      width: 1750
+    - offset: 5498500
+      width: 3250
+    - offset: 5539000
+      width: 1750
+    - offset: 5570000
+      width: 1750
+    - offset: 5602000
+      width: 1750
+    - offset: 6499500
+      width: 3250
+    - offset: 6535250
+      width: 1500
+    - offset: 6567250
+      width: 1750
+    - offset: 6607250
+      width: 1500
+    - offset: 6645250
+      width: 1500
+    - offset: 6677250
+      width: 1500
+    - offset: 6716250
+      width: 1500
+    - offset: 7500500
+      width: 3250
+    - offset: 7537250
+      width: 1750
+    - offset: 7569250
+      width: 1500
+    - offset: 7602250
+      width: 1500
+    - offset: 7642250
+      width: 1500
+    - offset: 8501500
+      width: 3250
+    - offset: 8536250
+      width: 1500
+    - offset: 8575250
+      width: 1500
+    - offset: 8612250
+      width: 1500
+    - offset: 8643250
+      width: 2250
+    - offset: 8679250
+      width: 1500
+    - offset: 8717250
+      width: 1750
+    - offset: 8753250
+      width: 1500
+    - offset: 9502500
+      width: 3250
+    - offset: 9539250
+      width: 1500
+    - offset: 9574250
+      width: 1500
+    - offset: 9605250
+      width: 1500
+    - offset: 9644250
+      width: 1500
+    - offset: 9678250
+      width: 1750
+    - offset: 10503500
+      width: 3500
+    - offset: 10539250
+      width: 1750
+    - offset: 10579250
+      width: 1500
+    - offset: 10618250
+      width: 1750
+    - offset: 11504500
+      width: 4250
+    - offset: 11539250
+      width: 2500
+    - offset: 11577250
+      width: 2750
+    - offset: 11616250
+      width: 2500
+    - offset: 11656250
+      width: 2500
+    - offset: 11691250
+      width: 1750
+    - offset: 11723250
+      width: 1750
+    - offset: 11761250
+      width: 1750
+    - offset: 11797250
+      width: 1750
+    - offset: 11835250
+      width: 3000
+    - offset: 11868250
+      width: 2500
+    - offset: 11905250
+      width: 1750
+    - offset: 12611250
+      width: 1750
+    - offset: 12643000
+      width: 2000
+    - offset: 12681750
+      width: 2250
+    - offset: 12720500
+      width: 2500
+    - offset: 12761250
+      width: 1750
+    - offset: 12799250
+      width: 1750
+    - offset: 12833250
+      width: 1750
+    - offset: 13543250
+      width: 1750
+    - offset: 13582250
+      width: 1750
+    - offset: 13613250
+      width: 1750
+    - offset: 13644250
+      width: 1750
+    - offset: 13677250
+      width: 1750
+    - offset: 13708250
+      width: 1750
+    - offset: 13739250
+      width: 1750
+    - offset: 13769250
+      width: 1750
+    - offset: 14507750
+      width: 3250
+    - offset: 14544250
+      width: 1750
+    - offset: 14576250
+      width: 1750
+    - offset: 14609250
+      width: 1750
+    - offset: 14641250
+      width: 1750
+    - offset: 14673250
+      width: 1750
+    - offset: 14709250
+      width: 1750
+    - offset: 15508750
+      width: 3250
+    - offset: 15545250
+      width: 1750
+    - offset: 15580500
+      width: 1500
+    - offset: 15615250
+      width: 1750
+    - offset: 15649500
+      width: 1500
+    - offset: 16509750
+      width: 3250
+    - offset: 16542500
+      width: 2000
+    - offset: 16582500
+      width: 1500
+    - offset: 16615500
+      width: 1500
+    - offset: 16651500
+      width: 1500
+    - offset: 16690500
+      width: 1500
+    - offset: 16728250
+      width: 1750
+    - offset: 16767000
+      width: 2000
+    - offset: 17510750
+      width: 4000
+    - offset: 17545500
+      width: 1500
+    - offset: 17581500
+      width: 1500
+    - offset: 17612500
+      width: 1500
+    - offset: 17648500
+      width: 2000
+    - offset: 17685500
+      width: 1500
+    - offset: 17722500
+      width: 1500
+    - offset: 17755500
+      width: 1500
+    - offset: 17786500
+      width: 1500
+    - offset: 17823500
+      width: 1500
+    - offset: 17861500
+      width: 1500
+    - offset: 17898500
+      width: 1500
+    - offset: 18584500
+      width: 1500
+    - offset: 18624500
+      width: 1500
+    - offset: 18654500
+      width: 1750
+    - offset: 18688500
+      width: 1750
+    - offset: 18728500
+      width: 1500
+    - offset: 18762500
+      width: 1500
+    - offset: 18798500
+      width: 1500
+    - offset: 18828500
+      width: 1500
+    - offset: 19512750
+      width: 3250
+    - offset: 19550500
+      width: 1500
+    - offset: 19587500
+      width: 1500
+    - offset: 19622500
+      width: 1500
+    - offset: 19655500
+      width: 1500
+    - offset: 19688250
+      width: 1750
+    - offset: 19721500
+      width: 1750
+    - offset: 19755500
+      width: 1750
+    - offset: 20513750
+      width: 3500
+    - offset: 20548500
+      width: 1750
+    - offset: 20580500
+      width: 1500
+    - offset: 20610000
+      width: 2000
+    - offset: 20646500
+      width: 1750
+    - offset: 20683500
+      width: 1750
+    - offset: 21514750
+      width: 3500
+    - offset: 21547500
+      width: 1750
+    - offset: 21583500
+      width: 1750
+    - offset: 21619500
+      width: 1750
+    - offset: 22515750
+      width: 3500
+    - offset: 22553500
+      width: 1750
+    - offset: 22593500
+      width: 1750
+    - offset: 22629500
+      width: 1750
+    - offset: 22668500
+      width: 1750
+    - offset: 22704500
+      width: 1750
+    - offset: 22742500
+      width: 2250
+    - offset: 23516500
+      width: 4250
+    - offset: 23548500
+      width: 1750
+    - offset: 23584500
+      width: 1750
+    - offset: 23618500
+      width: 1750
+    - offset: 23654500
+      width: 2000
+    - offset: 23694500
+      width: 1750
+    - offset: 24518000
+      width: 3250
+    - offset: 24557500
+      width: 1750
+    - offset: 24588500
+      width: 1750
+    - offset: 24627500
+      width: 1750
+    - offset: 24661500
+      width: 42000
+event_width: 650000
+sleep:
+    avg: 0.000007326969234355829
+    std: 0.0000033639666549612658
+    'off': 20350000
+    width: 100000
+options:
+    - '--gap 15'
+    - '--min-duration 75'
+    - '--sleep-window 100'
+    - '--event-window 650'
+version: 26.2.4

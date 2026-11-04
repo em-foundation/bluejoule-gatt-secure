@@ -1,0 +1,248 @@
+span:
+    offset: 0
+    width: 20000000
+events:
+    -
+        offset: 1962000
+        width: 1000000
+    -
+        offset: 3944000
+        width: 1000000
+    -
+        offset: 6294000
+        width: 1000000
+    -
+        offset: 8100000
+        width: 1000000
+    -
+        offset: 10273750
+        width: 1000000
+    -
+        offset: 12452000
+        width: 1000000
+    -
+        offset: 14267000
+        width: 1000000
+    -
+        offset: 16267000
+        width: 1000000
+    -
+        offset: 18278500
+        width: 1000000
+excluded:
+    -
+        offset: 250
+        width: 873500
+    -
+        offset: 1735000
+        width: 5000
+    -
+        offset: 1778000
+        width: 2000
+    -
+        offset: 1815750
+        width: 2500
+    -
+        offset: 1856000
+        width: 2000
+    -
+        offset: 1896000
+        width: 2250
+    -
+        offset: 1928000
+        width: 2000
+    -
+        offset: 3738000
+        width: 5250
+    -
+        offset: 3777000
+        width: 2250
+    -
+        offset: 3811000
+        width: 2250
+    -
+        offset: 3848000
+        width: 2000
+    -
+        offset: 3880500
+        width: 2500
+    -
+        offset: 3911000
+        width: 2000
+    -
+        offset: 5741000
+        width: 5000
+    -
+        offset: 5780000
+        width: 2000
+    -
+        offset: 5820000
+        width: 2000
+    -
+        offset: 5856000
+        width: 2000
+    -
+        offset: 5889000
+        width: 2250
+    -
+        offset: 5929000
+        width: 2000
+    -
+        offset: 5961000
+        width: 2250
+    -
+        offset: 5993000
+        width: 2000
+    -
+        offset: 6025000
+        width: 2000
+    -
+        offset: 6056000
+        width: 2000
+    -
+        offset: 6096000
+        width: 2000
+    -
+        offset: 6130000
+        width: 2000
+    -
+        offset: 6162000
+        width: 2000
+    -
+        offset: 6196000
+        width: 2250
+    -
+        offset: 6231000
+        width: 2250
+    -
+        offset: 6264000
+        width: 2000
+    -
+        offset: 7962000
+        width: 5000
+    -
+        offset: 8000000
+        width: 2250
+    -
+        offset: 8034000
+        width: 2250
+    -
+        offset: 8066000
+        width: 2250
+    -
+        offset: 9965000
+        width: 5250
+    -
+        offset: 10003000
+        width: 2250
+    -
+        offset: 10039000
+        width: 2250
+    -
+        offset: 10073000
+        width: 2000
+    -
+        offset: 10107000
+        width: 2000
+    -
+        offset: 10139000
+        width: 2000
+    -
+        offset: 10171000
+        width: 2250
+    -
+        offset: 10207000
+        width: 2250
+    -
+        offset: 10239000
+        width: 2000
+    -
+        offset: 11968000
+        width: 5000
+    -
+        offset: 12006000
+        width: 2000
+    -
+        offset: 12039000
+        width: 2000
+    -
+        offset: 12074000
+        width: 2250
+    -
+        offset: 12108000
+        width: 2000
+    -
+        offset: 12148000
+        width: 2000
+    -
+        offset: 12183000
+        width: 2000
+    -
+        offset: 12215000
+        width: 2000
+    -
+        offset: 12249000
+        width: 2000
+    -
+        offset: 12284000
+        width: 2250
+    -
+        offset: 12317000
+        width: 2250
+    -
+        offset: 12350000
+        width: 2000
+    -
+        offset: 12385750
+        width: 2500
+    -
+        offset: 12418000
+        width: 2000
+    -
+        offset: 14120000
+        width: 5250
+    -
+        offset: 14156000
+        width: 2250
+    -
+        offset: 14195000
+        width: 2250
+    -
+        offset: 14232000
+        width: 2000
+    -
+        offset: 16123000
+        width: 5000
+    -
+        offset: 16162000
+        width: 2250
+    -
+        offset: 16196000
+        width: 2000
+    -
+        offset: 16230000
+        width: 2000
+    -
+        offset: 18127500
+        width: 5000
+    -
+        offset: 18164500
+        width: 4000
+    -
+        offset: 18204500
+        width: 2250
+    -
+        offset: 18242500
+        width: 3000
+event_width: 1000000
+sleep:
+    avg: 0.0000066946630706610225
+    std: 0.000001826047202547844
+    'off': 4850000
+    width: 100000
+options:
+    - '--gap 15'
+    - '--min-duration 890'
+    - '--sleep-window 100'
+    - '--event-window 1000'
+version: 26.2.3
