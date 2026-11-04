@@ -1,6 +1,20 @@
 # BlueJoule-GATT-Secure
 
-Experimental release candidate for a BLE secure connection benchmark. This repository starts on RC-26.12 and is not a formal release. No fresh captures or scores are claimed yet.
+Experimental release candidate for a BLE secure connection benchmark. Current results are from the RC-26.12 development branch.
+
+## Current RC scores
+
+RC-26.12 capture results at 3.0 V, projected at one transaction per 10 seconds.
+
+| Capture | EM•eralds |
+| --- | ---: |
+| [nrf-52832-emscript/3V0-J](captures/nrf-52832-emscript/3V0-J/ABOUT.md) | 12.48 |
+| [nrf-52832-zephyr/3V0-J](captures/nrf-52832-zephyr/3V0-J/ABOUT.md) | 9.82 |
+| [nrf-54l15-emscript/3V0-J](captures/nrf-54l15-emscript/3V0-J/ABOUT.md) | 22.48 |
+| [nrf-54l15-zephyr/3V0-J](captures/nrf-54l15-zephyr/3V0-J/ABOUT.md) | 20.43 |
+| [ti-cc2340r5-emscript/3V0-J](captures/ti-cc2340r5-emscript/3V0-J/ABOUT.md) | 4.49 |
+| [ti-cc2340r5-zephyr/3V0-J](captures/ti-cc2340r5-zephyr/3V0-J/ABOUT.md) | 1.47 |
+| [ti-cc2755p10-zephyr/3V0-J](captures/ti-cc2755p10-zephyr/3V0-J/ABOUT.md) | 1.37 |
 
 ## Workload
 
@@ -11,8 +25,8 @@ The secure central is a distinct fixture from ordinary GATT. Before measurements
 ## Layout
 
 - central/: secure nRF52 DK central source and build configuration
-- peripheral/: copied GATT build/load/size tooling for nRF52832, nRF54L15 and CC2340R5; security config is always merged last
-- captures/: six platform/implementation folders, each with a 3V0-J placeholder (3.0 V, Joulescope)
+- peripheral/: copied GATT build/load/size tooling for nRF52832, nRF54L15, CC2340R5, and CC2755P10. The build merges the security configuration last
+- captures/: platform and implementation folders with 3.0 V Joulescope captures
 
 ## Build and load
 
